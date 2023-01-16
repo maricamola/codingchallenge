@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Contenitore{
+  width: 1000px;
+  margin:auto;
+  margin-top: 3%;
+  background-color: RGBA(0,0,0,0.5);
+  border: 50px;
+  border-radius: 3%;
+  padding: 5%;
+}
+
+.Bottoni , header{
+  text-align: center;
+}
+
+#logo-text{
+color: #32CD32;
+font-size: 28px;
+font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+  width: 200px
+}
+
+.Bottoni{
+  background-color: #32CD32;
+  border: 10px;
+  padding: 1%
+}
+
+h3 , p{
+  font-family:'Poppins', sans-serif;
+  color: white;
+  margin-bottom: 2px;
+}
+
+p:before{
+  font-size: 'Quicksand', sans-serif;
+  font-size: 10px;
+  content:"\21A6";
+}
+
+
+.Linea-gialla{
+  border: 12px solid #FFDB58;
+  border-radius: 5px;
+  width: 240px;
+  margin-left: 0%
+}
+
+.Linea-verde{
+  border: 12px solid #32cd32;
+  border-radius: 5px;
+  width: 340px;
+  margin-left: 0%
+}
+
+
+.Linea-rossa{
+  border: 12px solid #ff6347;
+  border-radius: 5px;
+  width: 140px;
+  margin-left: 0%
+}
